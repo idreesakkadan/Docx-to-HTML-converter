@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import "https://cdn.jsdelivr.net/npm/suneditor@latest/dist/css/suneditor.min.css";  */
+
+@import "../node_modules/suneditor/dist/css/suneditor.min";
+/* @import '~bootstrap/dist/css/bootstrap.min.css'; */
+
+.sun-editor  {
+    margin-left:180px;
+}

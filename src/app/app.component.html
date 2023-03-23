@@ -1,13 +1,32 @@
-<div class="form-group">
-  <input #file6 type="file" id="file" (change)="handleFileInput($event)" style="margin-bottom:50px;">
-</div>
-<!--<div class="e2e-inner-html-bound" [innerHTML]="htmlSnippet" >
+<nav class="navbar navbar-light bg-light nav">
+  <!-- <a class="navbar-brand" href="#">Docx to HTML</a> -->
+  <div class="row" style="width:100%;">
+    <div style="width:30%;">
+      <h6 class="display-6">Docx to HTML</h6>
+      <figcaption class="blockquote-footer">Developed by <cite title="Source Title">
+        <a href="https://www.linkedin.com/in/idrees-ia/">Idrees </a></cite>
+      </figcaption>
+    </div>
+    <div class="hintclass" style="width:70%;">
+      <small style="padding-top: 54px;">This straightforward Docx to HTML Converter additionally offers an edi option for the output.</small>
+    </div>
+  </div>  
+</nav>
 
-</div>-->
+<form>
+  <div class="form-group input-class justify-content-center">
+    <label style="margin-left: 150px;">Please choose a docx file:&nbsp;</label>
+    <input type="file" (change)="handleFileInput($event)" accept=".docx">
+    <button type="button" class="btn btn-light" (click)="resetForm($event)">Clear Content</button>
+  </div>
+</form>
 
 
+<!--  -->
+<!-- <div class="e2e-inner-html-bound" [innerHTML]="htmlSnippet" >
+</div> -->
 
 
 <div style="text-align:center;" >SunEditor</div>
 <ngx-suneditor (created)="onEditorCreated($event)" (onCopy)="onCopy()" ></ngx-suneditor>
-<!--<router-outlet></router-outlet>-->
+<router-outlet></router-outlet>

@@ -1,0 +1,11 @@
+.input-class {
+    padding-top: 0.5em; margin-left: 2em;
+    /* margin-left: 180px; */
+}
+
+.hintclass {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  
+}

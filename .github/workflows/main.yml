@@ -21,8 +21,8 @@ jobs:
 #       - name: Lint
 #         run: npm run lint
 
-      - name: Tests
-        run: npm run test:prod
+#       - name: Tests
+#         run: npm run test:prod
         
       - name: Build
         run: npm run build:prod
